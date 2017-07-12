@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#game{
+  line-height: 0;
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  padding: 4px 6px 4px 4px;
+  background-color: #194995;
+  border-radius: 4px;
+}
+
+.block{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url('image.png') no-repeat;
+  background-size: 1220%;
+}
+
+.type-0{
+  background-position: 0 0;
+}
+
+.type-1{
+  background-position: -97px -103px;
+}
+
+.type-2{
+  background-position: -138px -103px;
+}
+
+.type-3{
+  background-position: -383px -103px;
+}
+
+.type-4{
+  background-size: 1400%;
+  background-position: -121px -224px;
+}
+
+.type-5{
+  background-position: -179px -103px;
+}
+
